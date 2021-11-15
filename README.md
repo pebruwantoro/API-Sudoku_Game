@@ -28,12 +28,14 @@ Developer by Doni Pebruwantoro
 
 **Cloning from repository GitHub**
 ```sh
-git clonehttps://github.com/pebruwantoro/API-Sudoku_Game.git
+git clone https://github.com/pebruwantoro/API-Sudoku_Game.git
 ```
 
-Default environment variable for my local computer. For setting environment variables, you are able to edit .env file.
+Default environment variable for my local computer. 
+For setting environment variables, you are able to edit .env file.
 
-Default HTTP PORT.For setting HTTP PORT, you can edit .env file.
+Default HTTP PORT. For setting HTTP PORT, you can edit .env file.
+
 ```sh
 HTTP_PORT=8080
 ```
@@ -41,15 +43,18 @@ HTTP_PORT=8080
 - Testing API using Postman
 
 **Testing API**
+
 Open your Postman for testing this API.
 
 1. Feature Solve Sudoku problems
 Use method **POST** and this **ENDPOINT**
+
 ```sh
 http://localhost:8080/sudoku-games
 ```
 
 Example input:
+
 ```sh
 {
     "input": [
